@@ -1,0 +1,29 @@
+{
+  "name": "stopwatch_rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clear": "npm i && npm run dev",
+    "dev": "./node_modules/.bin/webpack-dev-server",
+    "prod": "cross-env NODE_ENV=production ./node_modules/.bin/webpack-cli"
+  },
+  "author": "Olga Omelchenko",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rxjs": "^7.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  }
+}

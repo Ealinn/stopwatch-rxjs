@@ -78,3 +78,54 @@ body {
   -ms-transition: background-color 0.5s ease-in-out;
   -o-transition: background-color 0.5s ease-in-out;
 }
+
+@media screen and (max-width: 768px) {
+  .clock {
+    font-size: 70px;
+  }
+  .btn {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .clock {
+    font-size: 60px;
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .clock {
+    font-size: 50px;
+  }
+  .clock-buttons {
+    margin-top: 40px;
+  }
+  .btn {
+    font-size: 16px;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .clock {
+    font-size: 45px;
+  }
+  .clock-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    padding: 15px 25px;
+    font-size: 18px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
